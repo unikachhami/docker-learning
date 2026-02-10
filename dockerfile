@@ -4,7 +4,7 @@ WORKDIR /app
 COPY . /app
 
 RUN pip install --upgrade pip \
-    && pip install --no-cache-dir Flask==2.3.3 Werkzeug==2.3.6
+    && pip install --no-cache-dir Flask==2.3.3 Werkzeug==2.3.7
 
 EXPOSE 5000
 ENV FLASK_APP=app.py
